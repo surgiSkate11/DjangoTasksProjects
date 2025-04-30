@@ -1,0 +1,56 @@
+body{
+    background-color: #322020;
+    color: #514545;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+.navbar{
+    background: #404040;
+    padding: 5px 0px;
+}
+
+.navbar ul{
+    display:flex;
+    justify-content: space-between;
+}
+
+.navbar ul li a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover{
+    color: aquamarine;
+}
+
+.navbar ul li a {
+    color:white;
+}
+
+.container{
+    max-width: 1200px;
+    /* background: red; */    
+    margin: auto; 
+    padding: 20px 10px;
+}
+
+
+.card{
+    padding: 10px;
+    color: black;
+    padding: 20px;
+    background: #f28080;
+    margin-bottom: 2px;
+}
+
+.input{
+    background : wheat;
+    padding: 10px;
+    text-align: center;
+    margin: 10px 0px;
+    border-radius: 5px;
+    display: block;
+}

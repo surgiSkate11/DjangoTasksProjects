@@ -1,0 +1,15 @@
+
+{% extends 'layouts/base.html' %}
+{% block contenido %}
+
+<h1>Create a new Task</h1>
+<!-- {{form}}
+ -->
+<form method="POST">  <!-- Le quito  action="" porque quiero obtener los datos en la misma ruta -->
+    {% csrf_token %}
+    {{form.as_p}}  <!-- Ubica uno debajo del otro -->
+    <button>
+        Save Task
+    </button>
+</form>
+{% endblock %}
